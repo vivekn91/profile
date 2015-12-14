@@ -1,0 +1,83 @@
+{
+	"name": "Vivekanandan N",
+	"about": [
+		"Technically Sophisticated Professional with three years of experience in the area of web and mobile application development",
+		"Proficient in developing web applications using JAVA / J2EE technologies",
+		"Adept in end-to-end development of software products from requirement analysis, design, coding, documentation and implementataion"
+	],
+	"role": "Web and Mobile Application developer",
+	"place": "Chennai",
+	"mail": "vivek.n91@gmail.com",
+	"mobile": "+91 9551146163",
+	"website": "#",
+	"facebook": "#",
+	"twitter": "#",
+	"google_plus": "#",
+	"education": [{
+		"title": "M.C.A",
+		"year": "Oct 2012 - Dec 2015",
+		"institute": "Sastra University",
+		"scored": "78 %"
+	}, {
+		"title": "B.Sc Computer Science",
+		"year": "Jul 2009 - Apr 2012",
+		"institute": "Prince Shri Venkateshwara Arts and Science College",
+		"scored": "83.22 %"
+	}, {
+		"title": "H.S.C",
+		"year": "Jul 2008 - Apr 2009",
+		"institute": "Sitadevi Garodia Hindu Vidyalaya Mat Hr.Sec School",
+		"scored": "68.25 %"
+	}, {
+		"title": "S.S.C",
+		"year": "Jul 2006 - Apr 2007",
+		"institute": "Sitadevi Garodia Hindu Vidyalaya Mat Hr.Sec School",
+		"scored": "80.33 %"
+	}],
+	"experience": [{
+		"title": "TATA Consultancy Services",
+		"yos": "3.3",
+		"years": "Jul 2012 - Nov 2015",
+		"projects": [{
+			"title": "Training Centre Management",
+			"desc": "Digitization platform for complete training processn from mobilisation to placement with web and mobile based applications"
+		}, {
+			"title": "Reporting for Simulator data",
+			"desc": "A web-based reporting application where data are fetched from API"
+		}, {
+			"title": "Combinatorial Game",
+			"desc": "Online two player HTML5 games based on combinatorial game theory"
+		}, {
+			"title": "Others",
+			"desc": "Have been part of application using Google Maps API and follows Agile for software development"
+		}, {
+			"title": "Appreciations",
+			"desc": "Star of the month for contribution towards application deliveries and TATA Strive (client) appreciated for deployments"
+		}]
+	}],
+	"Software": [{
+		"title": "Java, J2EE & Hibernate",
+		"value": 60
+	}, {
+		"title": "HTML & CSS3",
+		"value": 60
+	}, {
+		"title": "Javascript & jQuery",
+		"value": 60
+	}, {
+		"title": "MySQL",
+		"value": 50
+	}, {
+		"title": "D3 & Highcharts Js",
+		"value": 70
+	}, {
+		"title": "Google Maps API",
+		"value": 40
+	}, {
+		"title": "Angular & Bootstrap",
+		"value": 70
+	}, {
+		"title": "Apache Tomcat",
+		"value": 30
+	}]
+}
