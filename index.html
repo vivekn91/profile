@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="profileApp">
+<head>
+<meta charset="UTF-8">
+<meta name="keywords"
+	content="Profile, Technology, Developer, Experience, Skills">
+<meta name="description"
+	content="A web developer profile page explaining his/her projects and skills">
+<meta name="author" content="Vivekanandan Natarajan">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profile</title>
+<!-- <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" /> -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link rel="stylesheet" href="css/normalize.css" type="text/css" />
+<link rel="stylesheet" href="css/page.css" type="text/css" />
+
+
+</head>
+<body class="container-fluid" ng-controller="loadProfile">
+	<header class="row">
+		<nav class="col-sm-12 col-xs-12 padding-left-0px">
+			<a class="navbar-brand" href="#"> <span>P </span>
+			</a>
+			<div class="pull-right">
+				<div class="has-feedback">
+					<input type="text" class="form-control" id="inputSuccess4"
+						aria-describedby="input4Search" placeholder="Search...">
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<div class="row">
+		<section class="col-md-3 col-xs-12 left-section">
+
+			<div class="row text-center">
+				<img src="images/image-dev.jpeg"
+					class="img-rounded col-sm-offset-2 col-xs-offset-3 col-sm-8 col-xs-6 " />
+				<div class="clearfix"></div>
+				<h2 aria-describedby="UserName">{{profileData.name}}</h2>
+				<h3 aria-describedby="role">{{profileData.role}}</h3>
+				<p class="padding-5px" ng-repeat="line in profileData.about">{{line}}</p>
+			</div>
+
+			<div class="row h3">
+				<div class="col-sm-2 col-xs-2">
+					<span class="glyphicon glyphicon-map-marker"></span>
+				</div>
+				<div class="col-sm-10 col-xs-10">{{profileData.place}}</div>
+			</div>
+
+			<div class="row h3">
+				<div class="col-sm-2 col-xs-2">
+					<span class="glyphicon glyphicon-envelope"></span>
+				</div>
+				<div class="col-sm-10 col-xs-10">{{profileData.mail}}</div>
+			</div>
+
+			<!-- div class="row h3">
+				<div class="col-sm-2 col-xs-2">
+					<span class="glyphicon glyphicon-earphone"></span>
+				</div>
+				<div class="col-sm-10 col-xs-10">{{profileData.mobile}}</div>
+			</div-->
+
+			<div class="row h3">
+				<div class="col-sm-2 col-xs-2">
+					<span class="glyphicon glyphicon-globe"></span>
+				</div>
+				<div class="col-sm-10 col-xs-10">{{profileData.website}}</div>
+			</div>
+
+			<div class="row h1">
+				<div class="col-sm-4 col-xs-4">
+					<a class="social label label-primary"
+						href="{{profileData.facebook}}">&nbsp;f&nbsp;</a>
+				</div>
+				<div class="col-sm-4 col-xs-4">
+					<a class="social label label-info" href="{{profileData.twitter}}">&nbsp;t&nbsp;</a>
+				</div>
+				<div class="col-sm-4 col-xs-4">
+					<a class="social label label-danger"
+						href="{{profileData.google_plus}}">g+</a>
+				</div>
+			</div>
+
+		</section>
+		<aside class="col-md-9 col-xs-12 ">
+			<div class="row text-center h3">
+				<ul id="myTabs2" class="nav nav-pills  collapsed navbar-toggle"
+					role="tablist" data-toggle="collapse">
+					<li role="presentation" class="active col-xs-3"><a
+						href="#education" id="education-tab-2" role="tab"
+						data-toggle="tab" aria-controls="Education" aria-expanded="true"><span
+							class="glyphicon glyphicon-education"></span></a></li>
+					<li role="presentation" class="col-xs-3 margin-left-0px"><a
+						href="#experience" role="tab" id="experience-tab-2"
+						data-toggle="tab" aria-controls="experience" aria-expanded="false">
+							<span class="glyphicon glyphicon-briefcase"></span>
+					</a></li>
+					<li role="presentation" class=" col-sm-3 col-xs-3 margin-left-0px"><a
+						href="#software" role="tab" id="software-tab-2" data-toggle="tab"
+						aria-controls="software" aria-expanded="false"> <span
+							class="glyphicon glyphicon-cd"></span>
+					</a></li>
+					<li role="presentation" class=" col-sm-3 col-xs-3 margin-left-0px"><a
+						href="#skills" role="tab" id="skills-tab-2" data-toggle="tab"
+						aria-controls="software" aria-expanded="false"> <span
+							class="glyphicon glyphicon-tower"></span>
+					</a></li>
+
+				</ul>
+				<ul id="myTabs" class="nav nav-pills collapse navbar-collapse "
+					role="tablist">
+					<li role="presentation" class="active col-sm-0 col-xs-3"><a
+						href="#education" id="education-tab" role="tab" data-toggle="tab"
+						aria-controls="Education" aria-expanded="true"><span
+							class="glyphicon glyphicon-education top-3px"></span>
+							&nbsp;Education</a></li>
+					<li role="presentation" class=" col-sm-3 col-xs-3 margin-left-0px"><a
+						href="#experience" role="tab" id="experience-tab"
+						data-toggle="tab" aria-controls="experience" aria-expanded="false">
+							<span class="glyphicon glyphicon-briefcase top-3px"></span>
+							&nbsp;Experience
+					</a></li>
+					<li role="presentation" class=" col-sm-3 col-xs-3 margin-left-0px"><a
+						href="#software" role="tab" id="software-tab" data-toggle="tab"
+						aria-controls="software" aria-expanded="false"> <span
+							class="glyphicon glyphicon-cd"></span> &nbsp;Software
+					</a></li>
+					<li role="presentation" class=" col-sm-3 col-xs-3 margin-left-0px"><a
+						href="#skills" role="tab" id="skills-tab" data-toggle="tab"
+						aria-controls="software" aria-expanded="false"> <span
+							class="glyphicon glyphicon-tower"></span> &nbsp;Skills
+					</a></li>
+				</ul>
+			</div>
+			<div id="myTabContent" class="tab-content">
+				<div role="tabpanel" class="tab-pane fade active in" id="education"
+					aria-labelledby="education-tab">
+					<div class="row">
+						<div class="col-sm-6 col-xs-12"
+							ng-repeat="educationDet in  profileData.education">
+							<div class="panel panel-info ">
+								<div class="panel-heading">{{educationDet.title}}</div>
+								<div class="panel-body">
+									<dl class="dl-horizontal">
+										<dt>Year</dt>
+										<dd>{{educationDet.year}}</dd>
+										<dt>Institute</dt>
+										<dd>{{educationDet.institute}}</dd>
+										<dt>Scored</dt>
+										<dd>{{educationDet.scored}}</dd>
+									</dl>
+								</div>
+							</div>
+						</div>
+						<!-- 						<div class="col-sm-6 col-xs-12"> -->
+						<!-- 							<div class="panel panel-info "> -->
+						<!-- 								<div class="panel-heading">B.Sc Computer Science</div> -->
+						<!-- 								<div class="panel-body"> -->
+						<!-- 									<p>Jul 2009 - Apr 2012</p> -->
+						<!-- 									<p>Prince Shri Venkateshwara Arts and Science College</p> -->
+						<!-- 									<p>83.22 %</p> -->
+						<!-- 								</div> -->
+						<!-- 							</div> -->
+						<!-- 						</div> -->
+					</div>
+
+				</div>
+				<div role="tabpanel" class="tab-pane fade" id="experience"
+					aria-labelledby="experience-tab">
+
+					<div class="row">
+						<div class="col-sm-12 col-xs-12"
+							ng-repeat="company in  profileData.experience">
+
+
+							<div class="panel panel-info">
+								<div class="panel-heading">{{company.title}}</div>
+								<div class="panel-body">
+									<p>Years of Service &nbsp; &nbsp;: &nbsp; &nbsp;
+										{{company.yos}} &nbsp; &nbsp;({{company.years}})</p>
+									<dl ng-repeat="project in  company.projects">
+										<dt>{{project.title}}</dt>
+										<dd>{{project.desc}}</dd>
+
+									</dl>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div role="tabpanel" class="tab-pane fade" id="software"
+					aria-labelledby="software-tab">
+					<div class="row">
+						<div class="col-sm-6 col-xs-12"
+							ng-repeat="softwaredet in  profileData.Software">
+							<div class="panel panel-default ">
+								<div class="panel-heading">{{softwaredet.title}}</div>
+								<div class="panel-body">
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="{{softwaredet.value}}"
+											aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: {{softwaredet.value}}%">
+											{{softwaredet.value}}%</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+				<div role="tabpanel" class="tab-pane fade" id="skills"
+					aria-labelledby="skills-tab">
+					skills <br />
+
+					<p>Will update soon !</p>
+				</div>
+
+			</div>
+		</aside>
+
+
+	</div>
+
+	<footer class="row">Profile page Inc., Copyright 2015</footer>
+<!-- 	<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script> -->
+<!-- 	<script src="js/bootstrap.min.js" type="text/javascript"></script> -->
+<!-- 	<script src="js/angular.min.js" type="text/javascript"></script> -->
+	
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.0/angular.min.js"></script>
+	
+	<script src="js/app.js" type="text/javascript"></script>
+	
+	
+
+</body>
+</html>
