@@ -1,4 +1,4 @@
-# profile
+# Profile
   Resume template
   
 #  Used
