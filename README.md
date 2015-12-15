@@ -1,2 +1,2 @@
 # profile
-Profile page
+  Resume template
