@@ -1,118 +1,159 @@
-	{
-		"name": "Vivekanandan N",
-		"about": [
-			"Technically Sophisticated Professional with six years of experience in the area of web and mobile application development",
-			"Proficient in developing web applications using JAVA / J2EE technologies",
-			"Adept in end-to-end development of software products from requirement analysis, design, coding, documentation and implementataion"
-		],
-		"role": "Web and Mobile Application developer",
-		"place": "Chennai",
-		"mail": "vivek.n91@gmail.com",
-		"mobile": "+91 9551146163",
-		"website": "#",
-		"facebook": "#",
-		"twitter": "#",
-		"google_plus": "#",
-		"education": [{
-			"title": "M.C.A",
-			"year": "Oct 2012 - Dec 2015",
-			"institute": "Sastra University",
-			"scored": "78 %"
-		}, {
-			"title": "B.Sc Computer Science",
-			"year": "Jul 2009 - Apr 2012",
-			"institute": "Prince Shri Venkateshwara Arts and Science College",
-			"scored": "83.22 %"
-		}, {
-			"title": "H.S.C",
-			"year": "Jul 2008 - Apr 2009",
-			"institute": "Sitadevi Garodia Hindu Vidyalaya Mat Hr.Sec School",
-			"scored": "68.25 %"
-		}, {
-			"title": "S.S.C",
-			"year": "Jul 2006 - Apr 2007",
-			"institute": "Sitadevi Garodia Hindu Vidyalaya Mat Hr.Sec School",
-			"scored": "80.33 %"
-		}],
-		"experience": [{
-			"title": "TATA Consultancy Services",
-			"yos": "3.3",
-			"years": "Jul 2012 - Nov 2015",
-			"projects": [{
-				"title": "Training Centre Management",
-				"desc": "Digitization platform for complete training processn from mobilisation to placement with web and mobile based applications"
-			}, {
-				"title": "Reporting for Simulator data",
-				"desc": "A web-based reporting application where data are fetched from API"
-			}, {
-				"title": "Combinatorial Game",
-				"desc": "Online two player HTML5 games based on combinatorial game theory"
-			}, {
-				"title": "Others",
-				"desc": "Have been part of application using Google Maps API and follows Agile for software development"
-			}, {
-				"title": "Appreciations",
-				"desc": "Star of the month for contribution towards application deliveries and TATA Strive (client) appreciated for deployments"
-			}]
-		},
-		{
-			"title": "Cognizant Technology Solution",
-			"yos": "1.7",
-			"years": "Nov 2015 - Jul 2017",
-			"projects": [{
-				"title": "LexisNexis",
-				"desc": "LA – Lexis Advance an online legal research solution from Lexis Nexis a global leader in legal consultation & services. The application is widely used by lawyers, law firms, corporations, government agencies and academic institutions seeking legal solutions, news & business insights. It offers risk solutions like data analytics supporting compliance, customer acquisition, fraud detection, health outcomes, identity solutions, investigation, receivables management and workflow optimization."
-			}, {
-				"title": "Innovation Award",
-				"desc": "Development cutomized UI framework to buid UI screen using mutiple RWD css ex. Bootstrap & Material."
-			}, {
-				"title": "Appreciations",
-				"desc": "Received award for setting-up CI pipeline and representing Code quality matrix "
-			}]
-		},{
-			"title": "Verizon Data services India Pvt Ltd",
-			"yos": "1",
-			"years": "Jul 2017 to till date",
-			"projects": [{
-				"title": "Fiancial Settlemets gateway",
-				"desc": "A single window application to create contracts and settle with mutiple vendors across different model of business in  Verizon "
-			}, {
-				"title": "Appreciations",
-				"desc": "Received award for migrating Adobe Flex based application to Angular and Java based app.(implemented microservice) "
-			}]
-		}],
-		"Software": [{
-			"title": "Java, J2EE & Hibernate",
-			"value": 60
-		}, {
-			"title": "Spring 4 and Spring Boot",
-			"value": 50
-		},{
-			"title": "HTML & CSS3",
-			"value": 60
-		}, {
-			"title": "Javascript & jQuery",
-			"value": 60
-		}, {
-			"title": "Node Js",
-			"value": 50
-		},{
-			"title": "MySQL, MongoDB & Oracle SQL server",
-			"value": 50
-		}, {
-			"title": "D3 & Highcharts Js",
-			"value": 70
-		}, {
-			"title": "Google Maps API",
-			"value": 40
-		}, {
-			"title": "Angular 1.x, 2 - 5 & Bootstrap",
-			"value": 70
-		}, {
-			"title": "Apache Tomcat",
-			"value": 30
-		},{
-			"title": "Hybrid Apps -- Cordova & Ionic framework",
-			"value": 50
-		}]
-	}
+{
+  "name": "Vivekanandan N",
+  "about": [
+    "Technically Sophisticated Professional with six years of experience in the area of web and mobile application development",
+    "Proficient in developing web applications using JAVA / J2EE technologies",
+    "Adept in end-to-end development of software products from requirement analysis, design, coding, documentation and implementataion"
+  ],
+  "role": "Web and Mobile Application developer",
+  "place": "Chennai",
+  "mail": "vivek.n91@gmail.com",
+  "mobile": "+91 9551146163",
+  "website": "#",
+  "facebook": "#",
+  "twitter": "#",
+  "google_plus": "#",
+  "education": [
+    {
+      "title": "M.C.A",
+      "year": "Oct 2012 - Dec 2015",
+      "institute": "Sastra University",
+      "scored": "78 %"
+    },
+    {
+      "title": "B.Sc Computer Science",
+      "year": "Jul 2009 - Apr 2012",
+      "institute": "Prince Shri Venkateshwara Arts and Science College",
+      "scored": "83.22 %"
+    },
+    {
+      "title": "H.S.C",
+      "year": "Jul 2008 - Apr 2009",
+      "institute": "Sitadevi Garodia Hindu Vidyalaya Mat Hr.Sec School",
+      "scored": "68.25 %"
+    },
+    {
+      "title": "S.S.C",
+      "year": "Jul 2006 - Apr 2007",
+      "institute": "Sitadevi Garodia Hindu Vidyalaya Mat Hr.Sec School",
+      "scored": "80.33 %"
+    }
+  ],
+  "experience": [
+    {
+      "title": "TATA Consultancy Services",
+      "yos": "3.3",
+      "years": "Jul 2012 - Nov 2015",
+      "projects": [
+        {
+          "title": "Training Centre Management",
+          "desc": "Digitization platform for complete training processn from mobilisation to placement with web and mobile based applications"
+        },
+        {
+          "title": "Reporting for Simulator data",
+          "desc": "A web-based reporting application where data are fetched from API"
+        },
+        {
+          "title": "Combinatorial Game",
+          "desc": "Online two player HTML5 games based on combinatorial game theory"
+        },
+        {
+          "title": "Others",
+          "desc": "Have been part of application using Google Maps API and follows Agile for software development"
+        },
+        {
+          "title": "Appreciations",
+          "desc": "Star of the month for contribution towards application deliveries and TATA Strive (client) appreciated for deployments"
+        }
+      ]
+    },
+    {
+      "title": "Cognizant Technology Solution",
+      "yos": "1.7",
+      "years": "Nov 2015 - Jul 2017",
+      "projects": [
+        {
+          "title": "LexisNexis",
+          "desc": "LA – Lexis Advance an online legal research solution from Lexis Nexis a global leader in legal consultation & services. The application is widely used by lawyers, law firms, corporations, government agencies and academic institutions seeking legal solutions, news & business insights. It offers risk solutions like data analytics supporting compliance, customer acquisition, fraud detection, health outcomes, identity solutions, investigation, receivables management and workflow optimization."
+        },
+        {
+          "title": "Innovation Award",
+          "desc": "Development cutomized UI framework to buid UI screen using mutiple RWD css ex. Bootstrap & Material."
+        },
+        {
+          "title": "Appreciations",
+          "desc": "Received award for setting-up CI pipeline and representing Code quality matrix "
+        }
+      ]
+    },
+    {
+      "title": "Verizon Data services India Pvt Ltd",
+      "yos": "1",
+      "years": "Jul 2017 to till date",
+      "projects": [
+        {
+          "title": "Claim Dispute Management using Blockchain",
+          "desc": "As a Tier-1 Tele-Communication Company, Verizon services are used by other service providers. Verizon charges them on monthly basis and receive many claims due to lack of transparency with respect to tax computation. We solved them by introducing Blockchain between two partners. The tax-computation logic is developed in collaboration and deployed as smart-contract in both partners infrastructure. "
+        },
+        {
+          "title": "Fiancial Settlemets gateway",
+          "desc": "A single window application to create contracts and settle with mutiple vendors across different model of business in  Verizon "
+        },
+        {
+          "title": "Appreciations",
+          "desc": "Received award for migrating Adobe Flex based application to Angular and Java based app.(implemented microservice) "
+        }
+      ]
+    }
+  ],
+  "Software": [
+    {
+      "title": "Java, J2EE & Hibernate",
+      "value": 60
+    },
+    {
+      "title": "Spring 4, Spring Boot and Spring Batch",
+      "value": 50
+    },
+    {
+      "title": "HTML & CSS3",
+      "value": 60
+    },
+    {
+      "title": "Javascript & jQuery",
+      "value": 60
+    },
+    {
+      "title": "Node Js",
+      "value": 50
+    },
+    {
+      "title": "MySQL, MongoDB & Oracle SQL server",
+      "value": 50
+    },
+    {
+      "title": "Docker",
+      "value": 30
+    },
+    {
+      "title": "D3 & Highcharts Js",
+      "value": 70
+    },
+    {
+      "title": "Google Maps API",
+      "value": 40
+    },
+    {
+      "title": "Angular 1.x, 2 - 5 & Bootstrap",
+      "value": 70
+    },
+    {
+      "title": "Apache Tomcat",
+      "value": 30
+    },
+    {
+      "title": "Hybrid Apps -- Cordova & Ionic framework",
+      "value": 50
+    }
+  ]
+}
