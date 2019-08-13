@@ -131,6 +131,10 @@
       "title": "MySQL, MongoDB & Oracle SQL server",
       "value": 50
     },
+ {
+      "title": "AWS and Serverless approaches",
+      "value": 50
+    },
     {
       "title": "Docker",
       "value": 30
